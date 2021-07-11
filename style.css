@@ -79,10 +79,31 @@ body {
 	border-radius: 20px;
 	margin-bottom: 1rem;
 	text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
 
 .card:nth-child(2) .card__btn {
 	color: var(--dark-cyan);
+}
+
+/* buttons hover states */
+
+.card:nth-child(1) .card__btn:hover {
+	border: 1px solid var(--transparent-white);
+	background: var(--bright-orange);
+	color: var(--transparent-white);
+}
+
+.card:nth-child(2) .card__btn:hover {
+	border: 1px solid var(--transparent-white);
+	background: var(--dark-cyan);
+	color: var(--transparent-white);
+}
+
+.card:nth-child(3) .card__btn:hover {
+	border: 1px solid var(--transparent-white);
+	background: var(--very-dark-cyan);
+	color: var(--transparent-white);
 }
 
 .card:nth-child(3) .card__btn {
@@ -99,6 +120,15 @@ body {
 	.card-container {
 		height: 100vh;
 	}
+
+	.card {
+		padding-top: 3.7rem;
+		height: 500px;
+	}
+	.card__btn {
+		margin-top: 4rem;
+	}
+
 	.card:nth-child(1) {
 		border-radius: 5px 0 0 5px;
 	}
