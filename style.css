@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 :root {
 	--bright-orange: hsl(31, 77%, 52%);
 	--dark-cyan: hsl(184, 100%, 22%);
@@ -16,6 +19,7 @@ body {
 	box-sizing: border-box;
 	font-size: var(--font-size);
 	line-height: 1.7;
+	font-family: 'Lexend Deca', sans-serif;
 }
 .card-container {
 	display: flex;
@@ -37,6 +41,7 @@ body {
 .card__title {
 	text-transform: uppercase;
 	color: var(--very-light-gray);
+	font-family: 'Big Shoulders Display', cursive;
 }
 
 .card__desc {
