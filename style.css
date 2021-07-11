@@ -23,6 +23,7 @@ body {
 	font-size: var(--font-size);
 	line-height: 1.6;
 	font-family: 'Lexend Deca', sans-serif;
+	background: rgb(184, 179, 179);
 }
 
 .card-container {
