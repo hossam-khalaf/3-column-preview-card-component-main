@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-  [Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-responsive-first-3columnpreviewcardcomponent-TiCCD38IU)
+-  [Live Site URL](https://hossam-khalaf.github.io/3-column-preview-card-component-main)
 
 ### Built with
 
@@ -28,6 +28,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Hossam Khalaf](https://www.your-site.com)
+- Frontend Mentor - [@hossam-khalaf](https://www.frontendmentor.io/profile/hossam-khalaf)
