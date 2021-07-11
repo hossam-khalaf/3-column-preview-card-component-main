@@ -24,6 +24,7 @@ body {
 	line-height: 1.6;
 	font-family: 'Lexend Deca', sans-serif;
 }
+
 .card-container {
 	display: flex;
 	align-items: center;
@@ -39,8 +40,20 @@ body {
 	align-items: flex-start;
 	padding: 1.6rem 2.5rem 1.6rem 2.5rem;
 	background: var(--bright-orange);
-	border-radius: 5px 5px 0 0;
+
 	max-width: 300px;
+}
+.card:nth-child(1) {
+	border-radius: 5px 5px 0 0;
+}
+
+.card:nth-child(2) {
+	background: var(--dark-cyan);
+}
+
+.card:nth-child(3) {
+	border-radius: 0 0 5px 5px;
+	background: var(--very-dark-cyan);
 }
 
 .card__title {
@@ -66,4 +79,31 @@ body {
 	border-radius: 20px;
 	margin-bottom: 1rem;
 	text-decoration: none;
+}
+
+.card:nth-child(2) .card__btn {
+	color: var(--dark-cyan);
+}
+
+.card:nth-child(3) .card__btn {
+	color: var(--very-dark-cyan);
+}
+
+@media (max-width: 930px) {
+	.card-container {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 931px) {
+	.card-container {
+		height: 100vh;
+	}
+	.card:nth-child(1) {
+		border-radius: 5px 0 0 5px;
+	}
+
+	.card:nth-child(3) {
+		border-radius: 0 5px 5px 0;
+	}
 }
