@@ -15,4 +15,34 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-size: var(--font-size);
+	line-height: 1.7;
+}
+.card-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 2rem 1rem;
+	background: rgb(221, 210, 210);
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 1.6rem 2.5rem 1.6rem 2.5rem;
+	background: var(--bright-orange);
+}
+
+.card__title {
+	text-transform: uppercase;
+	color: var(--very-light-gray);
+}
+
+.card__desc {
+	padding-right: 3rem;
+	text-align: left;
+	color: var(--transparent-white);
+
+	margin-bottom: 2rem;
 }
